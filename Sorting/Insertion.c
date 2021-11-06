@@ -41,5 +41,5 @@ void main()
 	}
 	printf("\n Sorted Array is :");
 	showArray(a, n);
-
+	free(a);
 }
